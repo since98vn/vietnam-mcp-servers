@@ -299,4 +299,4 @@ Kết quả chỉ để tham khảo, không phải tư vấn thuế hay pháp l�
 
 ---
 
-The text and examples in this repository are under the [MIT License](LICENSE). See the license file for the data.
+The text and examples in this repository are under the [MIT License](LICENSE). The data the servers return is covered by a separate notice: see [DATA.md](DATA.md).
