@@ -2,7 +2,7 @@
 
 ## What the MIT License covers
 
-The MIT License above applies to the contents of this repository: the
+The MIT License in the LICENSE file applies to the contents of this repository: the
 documentation, the client configuration files, the request examples and the
 registry metadata.
 
