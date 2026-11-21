@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Larger volume, bulk processing or an integration
+    url: https://since98.vn/contact
+    about: Need more than the free limit, or these tools inside your own system? Write to us (hello@since98.vn).
+  - name: Security problem
+    url: https://github.com/since98vn/vietnam-mcp-servers/blob/main/SECURITY.md
+    about: Please do not open a public issue for security problems. See SECURITY.md.

@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "since98-address": { "url": "https://since98.vn/api/mcp/address" },
+    "since98-payroll": { "url": "https://since98.vn/api/mcp/payroll" },
+    "since98-zalo": { "url": "https://since98.vn/api/mcp/zalo" }
+  }
+}

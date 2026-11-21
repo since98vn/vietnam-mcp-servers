@@ -1,0 +1,55 @@
+name: Data error
+description: A wrong or outdated answer from one of the servers (address, payroll or Zalo).
+title: "[Data] "
+labels: ["data"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. Please leave out personal data: no real names, phone numbers or full home addresses.
+  - type: dropdown
+    id: server
+    attributes:
+      label: Server
+      options:
+        - Address (since98.vn/api/mcp/address)
+        - Payroll and tax (since98.vn/api/mcp/payroll)
+        - Zalo business reference (since98.vn/api/mcp/zalo)
+    validations:
+      required: true
+  - type: input
+    id: tool
+    attributes:
+      label: Tool or endpoint
+      placeholder: "convert_old_to_new, or GET /api/v1/payroll/gross-to-net"
+    validations:
+      required: true
+  - type: textarea
+    id: request
+    attributes:
+      label: What you sent
+      description: Arguments or query parameters.
+      render: json
+    validations:
+      required: true
+  - type: textarea
+    id: got
+    attributes:
+      label: What you got
+      description: The relevant part of the answer, including data_version (dataVersion for addresses).
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What is right
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Official source
+      description: Link to the resolution, decree, circular or Zalo page that shows the right answer.
+      placeholder: https://
+    validations:
+      required: true

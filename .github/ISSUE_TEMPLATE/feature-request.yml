@@ -1,0 +1,34 @@
+name: Feature request
+description: Suggest a new tool, field or improvement, or a fix to the documentation.
+title: "[Idea] "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: server
+    attributes:
+      label: Server
+      options:
+        - Address
+        - Payroll and tax
+        - Zalo business reference
+        - A new server
+        - Documentation
+    validations:
+      required: true
+  - type: textarea
+    id: need
+    attributes:
+      label: What do you want to do?
+      description: The task, who it is for, and what the answer should contain.
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Example
+      description: A question you would ask an AI assistant, or a request and the answer you expect.
+  - type: input
+    id: source
+    attributes:
+      label: Official source (if any)
+      placeholder: https://
